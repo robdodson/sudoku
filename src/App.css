@@ -13,3 +13,19 @@ td {
   border: 1px solid black;
   text-align: center;
 }
+
+tr:nth-of-type(3n + 1) {
+  border-top: 4px solid black;
+}
+
+tr:nth-of-type(3n) {
+  border-bottom: 4px solid black;
+}
+
+td:nth-of-type(3n + 1) {
+  border-left: 4px solid black;
+}
+
+td:nth-of-type(3n) {
+  border-right: 4px solid black;
+}
